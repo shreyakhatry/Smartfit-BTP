@@ -11,7 +11,7 @@ import org.springframework.stereotype.Repository;
 
 import com.fitsync.entity.ActivityEntity;
 
-import javax.transaction.Transactional;
+import jakarta.transaction.Transactional;
 
 @Repository
 public interface ActivityRepository extends JpaRepository<ActivityEntity, Long> {

@@ -11,7 +11,7 @@ import org.springframework.stereotype.Repository;
 
 import com.fitsync.entity.NutrientsEntity;
 
-import javax.transaction.Transactional;
+import jakarta.transaction.Transactional;
 
 @Repository
 public interface NutrientRepository extends JpaRepository<NutrientsEntity, Long> {

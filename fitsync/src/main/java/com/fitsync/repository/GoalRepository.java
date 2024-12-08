@@ -10,7 +10,7 @@ import org.springframework.stereotype.Repository;
 
 import com.fitsync.entity.GoalEntity;
 
-import javax.transaction.Transactional;
+import jakarta.transaction.Transactional;
 
 @Repository
 public interface GoalRepository extends JpaRepository<GoalEntity, Long> {
